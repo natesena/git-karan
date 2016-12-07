@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>360&deg; Image Gallery</title>
+    <meta name="apple-mobile-web-app-capable" />
+    <meta name="description" content="360&deg; Image Gallery - A-Frame">
+    <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+    <script>
+    	
+    </script>
+  </head>
+  <body>
+    <!--<a-scene>
+    	<a-assets>
+    		<img id="thumb_1" src="360Cam1.JPG">
+    		<img id="thumb_2" src="skybox2.JPG">
+    		<img id="thumb_3" src="skybox3.JPG">
+    	</a-assets>
+	  	<a-sky src="skybox1.JPG"></a-sky>
+	  	<a-plane src="#thumb_1" position="0 2 0"></a-plane>
+	  	<a-plane src="#thumb_2" position="1 2 0"></a-plane>
+	  	<a-plane src="#thumb_3" position="2 2 0"></a-plane>-->
+
+	  	<a-scene>
+			<a-assets>
+        		<img id="fun" src="http://blog.topazlabs.com/wp-content/uploads/2013/07/Screen-Shot-2013-12-11-at-10.42.18-AM.png">
+      		</a-assets>
+  
+      	<a-sky src="#fun"></a-sky>
+      	<a-plane color="purple" height="2" width="2" position="0 2 0"></a-plane>
+	  	
+	  	<a-entity position="0 0 0">
+	  			<a-camera >
+	  				<a-cursor color="#FF0000"></a-cursor>
+	  			</a-camera>
+	  	</a-entity> 	
+		</a-scene>
+  </body>
+</html>
+
